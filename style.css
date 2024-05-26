@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .9rem;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(#acf0b0, #39f544); */
+  background: radial-gradient(#bfefc3, #9de8a2);
+}
+.heading{
+  font-size: 1.8rem;
+  color:#9de8a2;
+}
+.para{
+  width: 90%;
+  font-size: 1.3rem;
+}
+.servey {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 1%;
+}
+.box>label, .box>input
+ {
+  display: block;
+  /* border: .5px solid red; */
+  width: 90%;
+  /* gap: 1rem; */
+  padding: 5px 0;
+}
+.datalist>label{
+display: block;
+padding: 5px 0;
+
+}
+.datalist>select{
+  width: 90%;
+  padding: 5px 0;
+
+}
+.input-container{
+  display: flex;
+}
+.left, .right{
+  width: 50%;
+  margin-top: .5rem;
+}
+
+.radiobtn fieldset{
+  width: 90%;
+}
+.age-box {
+  display: flex;
+  justify-content: space-around;
+}
+legend{
+  font-size: 1.2rem;
+}
+.age-box label{
+  display: block;
+  padding: 3px;
+}
+.age-box>label>input{
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.proficent>label{
+  /* border: 2px solid; */
+  display: block;
+  padding: 3px 0 ;
+  font-size: 1.2rem;
+}
+
+.context label{
+display: block;
+padding: 3px 0;
+font-size: 1.2rem;
+}
+.msg label{
+  font-size: 1.2rem;
+}
+textarea{
+  display: block;
+  width: 90%;
+  min-height: 4rem;
+  margin: .5rem 0;
+  resize: none;
+}
+.btn{
+  width: 90%;
+  background-color: #9de8a2;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+
+@media(max-width:900px){
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left, .right{
+    width: 90%;
+    margin-top: .5rem;
+  }
+}
+
